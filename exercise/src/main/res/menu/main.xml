@@ -6,4 +6,12 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/nav_search"
+        android:title="Search"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_predict"
+        android:icon="@drawable/nav_predict"
+        android:title="Predict"
+        android:showAsAction="always" />
 </menu>
